@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Electrify_your_inovation.jpg');
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background: url('Electrify_your_inovation_0.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 60vh;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.learn-more {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.about-us {
+    padding: 50px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.our-services {
+    padding: 50px 20px;
+    background-color:#022c0b;
+    color: white;
+    text-align: center;
+}
+
+.our-services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+
+}
+
+.service {
+    flex: 1 1 30%;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.service img {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 400px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .about-us p {
+        padding: 0 10px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .service {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .service img {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+
+
+section {
+    padding: 20px;
+    
+}
+
+
+.contact-us {
+    
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.contact-us h2 {
+    margin-top: 0;
+    color: white;
+    margin-top: 30px;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:white;
+}
+
+.contact-us input,
+.contact-us textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 22px); /* Adjust for padding and border */
+}
+.contact-us button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-us button:hover {
+    background-color: #218838;
+}
+body {
+background: url;
+
+
+
+}
+
